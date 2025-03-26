@@ -391,7 +391,7 @@ class AdminProductsControllerCore extends AdminController
         $this->display = 'edit';
         $this->tab_display = 'VirtualProduct';
     }
-    
+
     public function ajaxProcessAddAttachment()
     {
         if (!$this->access('edit')) {
