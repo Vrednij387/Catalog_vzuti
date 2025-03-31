@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>supercheckout</name>
+    <displayName><![CDATA[Супершвидкіс]]></displayName>
+    <version><![CDATA[8.0.3]]></version>
+    <description><![CDATA[Оцінка на одну сторінку]]></description>
+    <author><![CDATA[Knowband]]></author>
+    <tab><![CDATA[checkout]]></tab>
+	<confirmUninstall><![CDATA[Ви впевнені, що хочете видалити?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

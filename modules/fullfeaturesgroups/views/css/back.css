@@ -1,0 +1,105 @@
+/**
+* 2016 TerraNet
+*
+* NOTICE OF LICENSE
+*
+* @author    TerraNet
+* @copyright 2016 TerraNet
+* @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+
+#subtab-AdminFullFeatureFastView .material-icons {
+    width: 42px;
+    height: 100%;
+    background: url('../img/logo_tab.png') center no-repeat;
+}
+
+.language-inp-container {
+    padding-bottom: 5px;
+}
+
+#product-features {
+    padding:15px 5px;
+}
+
+.action-btn-ffg-container {
+    display: inline-block;
+}
+
+.action-btn-ffg-container .btn-default i {
+    font-size: 14px;
+    width: auto;
+    height: auto;
+}
+
+.action-btn-ffg-container button:first-child {
+    margin-bottom: 3px;
+}
+
+.fgg_action_td {
+    width: 34px;
+    padding: 0;
+}
+
+#fast_ffg_edit_form td {
+    border-bottom: none;
+}
+
+.td_feature_container .not-filled {
+    color: red;
+}
+
+.custom-feature-field-group .input-group-addon {
+    color: #6c868e;
+}
+
+.feature-textarea-field {
+    line-height: 1.2;
+    width: 100% !important;
+}
+
+.feature-list-container {
+    width: 40%;
+}
+
+.feature-field-item {
+    position: relative;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.feature-field-item label {
+    cursor: pointer;
+    padding: 5px 0 5px 5px; margin: 0; width: 100%;
+}
+
+.feature-field-item label:hover {
+    color: #6c868e;
+    background: #f8f8f8;
+    position: relative;
+}
+
+.blue-background-class {
+    background: #C8EBFB;
+}
+
+.custom-positions:after {
+    content: "\F047";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    transform: translate(0);
+}
+
+.arrows-info {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 16px;
+    margin-top: -8px;
+    padding-right: 5px;
+}
+
+.arrows-info svg {
+    height: 100%;
+    fill: #6c868e;
+}

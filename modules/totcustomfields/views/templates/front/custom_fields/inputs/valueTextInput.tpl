@@ -1,0 +1,1 @@
+{$value|escape:'htmlall':'UTF-8'}

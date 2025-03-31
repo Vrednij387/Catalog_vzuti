@@ -1,0 +1,23 @@
+{**
+ * Copyright since 2022 totcustomfields
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to tech@202-ecommerce.com so we can send you a copy immediately.
+ *
+ * @author    202 ecommerce <tech@202-ecommerce.com>
+ * @copyright 2022 totcustomfields
+ * @license   https://opensource.org/licenses/AFL-3.0  Academic Free License (AFL 3.0)
+ *}
+
+<div style="box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2); margin-bottom: 1.563rem; background: #fff; padding: 1.563rem 1.25rem;">
+    {foreach from=$output item=html}
+        {$html nofilter} {* HTML CONTENT *}
+    {/foreach}
+</div>

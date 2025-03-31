@@ -1,0 +1,133 @@
+#identity,
+#history,
+#module-iqitwishlist-view,
+#addresses,
+#order-detail
+{
+    background-color: #f8f8f8;
+}
+#identity .page-title,
+#history .page-title,
+#module-iqitwishlist-view .page-title,
+#addresses .page-title,
+#order-detail .page-title {
+    font-weight: 500!important;
+}
+#history  table tr td {
+    min-width: 30%;
+}
+
+#identity section #content,
+#history section #content,
+#module-iqitwishlist-view section #content,
+#addresses section #content,
+#order-detail section #content{
+    border: none;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 2rem 1rem;
+}
+#header-user-btn .dropdown-menu.dropdown-menu-right{
+    padding: 20px 20px;
+    left: 80px!important;
+    top: 0px!important;
+    border: none;
+    box-shadow: 0px 15px 25px 0px rgba(74, 63, 63, 0.15);
+}
+#header-user-btn .dropdown-menu a.dropdown-item{
+    position: relative;
+    padding: 0;
+    padding-left: 22px;
+    border: none;
+    margin-bottom: 6px;
+}
+#header-user-btn .dropdown-menu a.dropdown-item:hover{
+    background: transparent;
+    color: var(--orange)!important;
+}
+#header-user-btn .dropdown-menu a.dropdown-item:before{
+    display: block;
+    width: 16px;
+    height: 2px;
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: 0;
+    background: var(--gray);
+}
+#history .my-account-page-content-wrapper .my-account-side-links,
+#order-detail .my-account-page-content-wrapper .my-account-side-links,
+#module-iqitwishlist-view .my-account-page-content-wrapper .my-account-side-links,
+#addresses .my-account-page-content-wrapper .my-account-side-links{
+    border-right: none;
+}
+#history .table-striped tbody tr:nth-of-type(even){
+  background: var(--light-gray);
+}
+#history .table-striped tbody tr:nth-of-type(odd){
+    background: transparent;
+}
+.table.table-bordered thead th{
+   background: var(--light-gray);
+    border: 1px solid #dee2e6;
+}
+.table-bordered thead td,
+.table-bordered thead th,
+.table-bordered tbody tr th{
+    font-weight: 500;
+    background-color: transparent;
+}
+.table.table-bordered td hr{
+    margin: 8px 0;
+}
+.table-labeled.table-bordered tbody span.label{
+    background-color: transparent!important;
+    color: var(--main);
+}
+.cms_page .table-bordered h3{
+    font-size: 18px;
+}
+.page-order-detail .box{
+    border: none!important;
+    margin-bottom: 5px!important;
+}
+#order-detail .line-shipping{
+    display: none;
+}
+#addresses .address-body h4{
+    min-height: 44px;
+}
+#history .table-responsive{
+
+    border: none;
+}
+@media(max-width: 530px) {
+    #history .orders .order a h3{
+        font-size: 20px;
+        color: var(--main)!important;
+        margin: 8px 0 16px;
+    }
+    #history .orders.hidden-md-up .order{
+        padding: 10px 15px 20px;
+
+        border-bottom: 1px solid var(--gray);
+    }
+    .mob_order-details{
+        margin-top: 20px;
+    }
+    .mob_order-details a{
+        display: block;
+        width: 200px;
+        text-align: center;
+        height: 32px;
+        line-height: 32px;
+        font-size: 16px;
+        border: 1px solid var(--gray);
+    }
+    .mob_order-img{
+        margin-bottom: 8px;
+    }
+    #order-detail .order-totals .order-total:nth-child(2){
+        display: none;
+    }
+}

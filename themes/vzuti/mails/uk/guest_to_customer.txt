@@ -1,0 +1,20 @@
+ 
+
+{shop_url}
+
+Привіт, {firstname} {lastname},
+
+Ваш гостьовий обліковий запис перетворено на клієнтський
+
+Вітаємо! Ваш гостьовий обліковий запис в магазині {shop_name} перетворено на клієнтський!
+
+E-mail адреса: {email}
+
+Натисніть на це посилання, щоб встановити свій пароль:
+{url}
+
+You can access your customer account on our store: [{shop_name}]({shop_url})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

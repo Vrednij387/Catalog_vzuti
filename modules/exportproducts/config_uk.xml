@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>exportproducts</name>
+    <displayName><![CDATA[Products Catalog (CSV, Excel, Xml) Export PRO]]></displayName>
+    <version><![CDATA[5.2.2]]></version>
+    <description><![CDATA[The Products Catalog (CSV, Excel, Xml) Export Module allows you to do a CSV or EXCEL export of your data from your product function.]]></description>
+    <author><![CDATA[MyPrestaModules]]></author>
+    <tab><![CDATA[export]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

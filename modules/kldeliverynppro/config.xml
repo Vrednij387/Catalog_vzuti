@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>kldeliverynppro</name>
+    <displayName><![CDATA[Nova Poshta Shipping - Pro]]></displayName>
+    <version><![CDATA[2.0.36]]></version>
+    <description><![CDATA[Shipping - Nova Post - pro version.]]></description>
+    <author><![CDATA[Klookva Antikov]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

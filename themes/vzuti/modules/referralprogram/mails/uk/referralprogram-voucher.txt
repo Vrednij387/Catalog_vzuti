@@ -1,0 +1,16 @@
+ 
+
+{shop_url}
+
+Привіт, {firstname} {lastname},
+
+Спонсорська програма
+
+Ми створили ваучер на ваше ім'я для залучення друзів.
+Це код вашого ваучера: {voucher_num}, з кількстю {voucher_num}
+
+Просто скопіюйте/вставте цей код в процесі оплати вашого наступного замовлення.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

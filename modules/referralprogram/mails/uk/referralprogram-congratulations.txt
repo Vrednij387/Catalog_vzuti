@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Поздоровляємо!
+
+Друг, якого ви запросили {sponsored_firstname} {sponsored_lastname} зробив своє перше замовлення в магазині [{shop_name}]({shop_url})!
+
+Ми раді запропонувати вам купон на суму {discount_display} (ПРОМОКОД: {discount_name}) який ви зможете використати у наступному замовленні.
+
+З найкращими побажаннями,
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

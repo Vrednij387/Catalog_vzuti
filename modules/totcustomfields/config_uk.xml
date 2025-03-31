@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>totcustomfields</name>
+    <displayName><![CDATA[Advanced Custom Fields : create new fields quickly]]></displayName>
+    <version><![CDATA[2.2.3]]></version>
+    <description><![CDATA[This module allows you to create your custom fields and to show them on 
+            Product, Category or Order pages in the Front Office and the Back Office. 6 types of fields are 
+            available : text, text area, image, video, select and checkbox.]]></description>
+    <author><![CDATA[202 ecommerce]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

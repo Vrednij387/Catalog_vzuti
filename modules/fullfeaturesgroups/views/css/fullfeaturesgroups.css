@@ -1,0 +1,95 @@
+/**
+* 2016 TerraNet
+*
+* NOTICE OF LICENSE
+*
+* @author    TerraNet
+* @copyright 2016 TerraNet
+* @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+
+.features_title {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.two-feature-column,
+.three-feature-column {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .two-feature-column,
+    .three-feature-column {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .three-feature-column {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+.ffg-style-container .feature-item {
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -o-column-break-inside: avoid;
+    -ms-column-break-inside: avoid;
+    break-inside: avoid;
+    border: 1px solid #e7e7e7;
+    margin: 0;
+}
+
+.table-feature-container {
+    margin-bottom: 15px;
+}
+
+.ffg-style-container .feature-item tr td,
+.ffg-style-container .feature-item tr th {
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+}
+
+.ffg-style-container .feature-item tr td:first-child {
+    width: 40%;
+    border-right: none;
+}
+
+.ffg-style-container .feature-item tr td:last-child {
+    border-left: none;
+}
+
+.ffg-style-container .feature-item tr:last-child td {
+    border-bottom: none;
+}
+
+.ffg-style-container .feature-item tr:nth-child(2n-1) {
+    background-color: #f6f6f6;
+}
+
+.ffg-style-container .feature-item tr td:first-child{
+    color: #818181;
+}
+
+.feature-name h4 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.product-features .title {
+    font-size: 21px;
+    padding-bottom: 15px;
+}

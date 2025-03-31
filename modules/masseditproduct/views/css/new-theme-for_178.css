@@ -1,0 +1,35 @@
+
+.bootstrap .prestashop-switch {
+    height: auto;
+    margin-top: 8px;
+}
+
+.bootstrap .prestashop-switch label {
+    position: relative;
+    padding-left: 0.769em;
+    font-size: .813rem;
+    opacity: 1;
+    transform: none;
+}
+
+.bootstrap .prestashop-switch .slide-button {
+    top: 0;
+    width: 50%;
+    height: 100%;
+    transform: none;
+    border-radius: 0;
+    position: absolute;
+}
+
+.bootstrap .prestashop-switch .slide-button::after {
+    background: none;
+}
+
+
+.bootstrap .prestashop-switch input:checked+label {
+    color: #fff;
+}
+
+.bootstrap .form-horizontal .form-wrapper {
+    margin: 0;
+}

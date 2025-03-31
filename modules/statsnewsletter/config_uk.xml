@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>statsnewsletter</name>
+    <displayName><![CDATA[Розсилка]]></displayName>
+    <version><![CDATA[2.0.3]]></version>
+    <description><![CDATA[Розширте свою статистику, відобразіть графік, що показує дані про підписку на вашу розсилку .]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

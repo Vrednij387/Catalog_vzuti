@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_faviconnotificationbo</name>
+    <displayName><![CDATA[Сповіщення про замовлення на іконці]]></displayName>
+    <version><![CDATA[2.1.3]]></version>
+    <description><![CDATA[Отримуйте сповіщення на вкладці вашого браузера щоразу, коли отримуєте нове замовлення, нового клієнта або нове повідомлення.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

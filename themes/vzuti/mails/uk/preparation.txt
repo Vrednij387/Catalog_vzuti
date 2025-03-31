@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Привіт, {firstname} {lastname},
+
+Замовлення №: {order_name} - Замовлення обробляється
+
+Ми вже обробляємо ваше замовлення з номером {order_name} в магазині {shop_name}.
+
+Follow your order and download your invoice on our store, go to the [Історія замовлень]({history_url}) section of your customer account.
+
+Якщо ви маєте гостьовий акаунт, ви можете відстежувати замовлення в розділі [Відстеження гостьового замовлення]({guest_tracking_url}) в нашому магазині.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

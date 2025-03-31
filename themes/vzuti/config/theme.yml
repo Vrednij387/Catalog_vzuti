@@ -1,0 +1,15 @@
+parent: warehouse
+name: vzuti
+display_name: Vzuti theme
+version: 23.08.2023
+author:
+  name: "Chisla"
+assets:
+  use_parent_assets: true
+  css:
+    all:
+      - id: font-awesome
+        path: assets/css/font-awesome/css/font-awesome.css
+        media: all
+        priority: 200
+

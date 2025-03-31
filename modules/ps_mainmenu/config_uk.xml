@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_mainmenu</name>
+    <displayName><![CDATA[Головне меню]]></displayName>
+    <version><![CDATA[2.3.2]]></version>
+    <description><![CDATA[Зробіть так, щоб відвідувачі могли легко пересуватись по вашому магазині, виберіть потрібне посилання та зробіть його елементом меню.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+    <module id_product="21889" rate="45">
+        <en name="Google Shopping Feed (for Google Merchant Center)">
+            The Google Shopping Feed module will allow you to send the list of products of your shop to Google Merchant
+            Center and publish your products on Google Shopping page results, that increase your sales by at least 20%
+            in just a few days.
+        </en>
+    </module>
+
+    <module id_product="21788" rate="45">
+        <en name="Price List generator">
+            Using our module you can easily get an downloadable XLS products price list on your site for customers!
+        </en>
+    </module>
+
+    <module id_product="21368" rate="45">
+        <en name="Full Features Groups">
+            Using our module you can easily display product features groups on product and comparison pages. This module
+            also displays the list of features, alligned with the selected category, in administration panel on the
+            product page.
+        </en>
+    </module>
+</modules>

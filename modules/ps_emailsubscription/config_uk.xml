@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_emailsubscription</name>
+    <displayName><![CDATA[Підписка на новини]]></displayName>
+    <version><![CDATA[2.7.1]]></version>
+    <description><![CDATA[Підтримуйте зв&rsquo;язок зі своїми клієнтами, додайте форму на домашню сторінку вашого магазину та дозвольте всім зацікавленим підписатися на вашу розсилку новин.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[Ви впевнені, що хочете видалити всі свої контактні дані?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

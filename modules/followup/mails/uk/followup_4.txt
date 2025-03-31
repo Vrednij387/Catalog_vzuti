@@ -1,0 +1,21 @@
+ 
+
+{shop_url}
+
+Привіт, {firstname} {lastname},
+
+Ваш кошик в магазині {shop_name}
+
+Вітаємо, ви один з наших найкращих клієнтів! Однак, ви не робили замовлення останніх {days_threshold} днів.
+
+Your cart has been saved, you can resume your order by visiting our store: {shop_url}
+
+Ми раді запропонувати вам знижку {amount}%[{/1] на ваше наступне замовлення. Ця пропозиція діє протягом {days} днів, тому не втрачайте момент!
+
+Ваш промокод: {voucher_num}
+
+Введіть цей код у своєму кошику, щоб отримати знижку.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

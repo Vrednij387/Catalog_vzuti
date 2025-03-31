@@ -1,0 +1,21 @@
+ 
+
+{shop_url}
+
+Привіт, {firstname} {lastname},
+
+{meta_products}
+
+Замовлення №: {order_name} - У дорозі
+
+Ваше замовлення за номером {order_name} зараз в дорозі.
+
+Ви можете відслідковувати вашу посилку за цим посиланням: {followup}
+
+Follow your order and download your invoice on our store, go to the [Історія замовлень]({history_url}) section of your customer account.
+
+Якщо ви маєте гостьовий акаунт, ви можете відстежувати замовлення в розділі [Відстеження гостьового замовлення]({guest_tracking_url}) в нашому магазині.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

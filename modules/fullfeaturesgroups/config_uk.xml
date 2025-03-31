@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>fullfeaturesgroups</name>
+    <displayName><![CDATA[Full Features Groups]]></displayName>
+    <version><![CDATA[3.5.5]]></version>
+    <description><![CDATA[Features Groups Module.]]></description>
+    <author><![CDATA[Terranet]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

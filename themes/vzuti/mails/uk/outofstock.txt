@@ -1,0 +1,19 @@
+ 
+
+{shop_url}
+
+Привіт, {firstname} {lastname},
+
+Дякуємо за замовлення з номером {order_name} у {shop_name}.
+
+Замовлення №: {order_name} - Не вистарчає товару в наявності
+
+На жаль, одиного або кількох товарів в даний час немає в наявності. Це може призвести до невеликої затримки у доставці. Будь ласка, прийміть наші вибачення і будьте впевнені, що ми докладаємо всіх зусиль, щоб це виправити.
+
+Follow your order and download your invoice on our store, go to the [Історія замовлень]({history_url}) section of your customer account.
+
+Якщо ви маєте гостьовий акаунт, ви можете відстежувати замовлення в розділі [Відстеження гостьового замовлення]({guest_tracking_url}) в нашому магазині.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <title>Підтвердження замовлення </title>
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+    @media (prefers-color-scheme: dark) {
+      #mail_body {
+        background-color: #eee!important;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      #mail_body {
+        padding: 20px 5px!important;
+      }
+      #mail_content {
+        padding: 20px 10px!important;
+      }
+      #mail_table_header {
+        display: none!important;
+      }
+      #mail_table tr td {
+        padding: 5px 10px;
+        display: inline-block;
+        max-width: 90%;
+      }
+    }
+    #mail_body {
+      font-family: 'Inter', sans-serif;
+      padding: 70px;
+      margin: 0px;
+      background-color: #eee;
+      font-size: 16px;
+      line-height: 150%;
+      word-spacing: normal;
+    }
+    #mail_header {
+      margin-bottom: 20px;
+    }
+    #mail_title {
+      font-size: 1.8em;
+    }
+    #mail_subtitle {
+      font-size: 1.3em;
+    }
+    #mail_content {
+      border: none;
+      background-color: #fff;
+      width: auto;
+      padding: 40px;
+      margin-bottom: 20px;
+    }
+    #mail_table {
+
+    }
+    #mail_table tr td {
+        padding: 10px 15px;
+        border:1px solid #eee;
+    }
+    #mail_table_header td {
+      background-color: #f3f3f3;
+      color: #aaa;
+    }
+    #mail_delivery {
+      padding: 10px 15px;
+      background-color: #f3f3f3;
+    }
+    #mail_footer {
+
+    }
+	.bank-info .color-blue {
+		color: #09F !important;
+	}
+	.bank-info span {
+		font-weight: 600;
+	}
+  </style>
+</head>
+<body id="mail_body">
+<div id="mail_header">
+  <a href="{shop_url}" target="_blank">
+    <img src="{shop_logo}" style="width: 150px; height: auto;">
+  </a>
+</div>
+<div id="mail_content">
+  <p id="mail_title">
+    Привіт, {firstname} {lastname}
+  </p>
+  <p>Ми отримали ваше замовлення №<b>{id_order}</b> ({date}) та вже готуємо його до відправки.</p>
+  <p id="mail_subtitle">
+    Оплата
+  </p>
+  <p>- Якщо ви оплатили замовлення картою онлайн то ваше замовлення вже передано на пакування</p>
+  <p>- При виборі способу оплати "післяплата" замовлення передається на пакування після отримання передплати 200 грн.</p>
+  
+	
+  
+  <p id="mail_subtitle">
+    Доставка
+  </p>
+  <p>Термін доставки 1-3 дні</p>
+  <p>Відправка протягом 48 годин з моменту оформлення замовлення</p>
+  <p>Повідомлення з номером ттн прийде вам на телефон, який був вказаний при оформленні. Посилка на пошті зберігається 7 днів.</p>
+  
+  {products}
+  <p>Загальна вартість товарів: <b>{total_products}</b></p>
+  {discounts}
+  <p id="mail_subtitle">Вартість замовлення: {total_paid}</p>
+  <p>
+    Оплата: <b>{payment}</b>
+  </p>
+  <p>
+    Доставка: <b>{carrier}</b>
+  </p>
+  <p id="mail_delivery">
+    {delivery_block_html}
+  </p>
+</div>
+<div id="mail_footer">
+  Якщо у вас виникли питання з приводу замовлення то напишіть нам на емейл <a href="info@vzutistore.com.ua">info@vzutistore.com.ua</a> або за телефоном який вказаний на сайті в розділі
+  <a href="https://vzutistore.com.ua/content/5-contacts" target="_blank">«контакти»</a>.
+</div>
+</body>
+</html>

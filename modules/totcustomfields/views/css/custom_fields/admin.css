@@ -1,0 +1,326 @@
+/**
+ * Copyright since 2022 totcustomfields
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to tech@202-ecommerce.com so we can send you a copy immediately.
+ *
+ * @author    202 ecommerce <tech@202-ecommerce.com>
+ * @copyright 2022 totcustomfields
+ * @license   https://opensource.org/licenses/AFL-3.0  Academic Free License (AFL 3.0)
+ */
+
+/* Tools */
+#tot_banner_container .clearfix:after,
+#tot-tab-titles-container .clearfix:after,
+#tot-tab-content .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/* Input forms */
+
+/* Input forms / Image */
+
+.newInputSubform.type_image .img_default {
+    max-height: 150px;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* Banner */
+#tot_banner_container {
+    background-color: #66cc33;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#tot_banner_container .white {
+    color: #fff;
+    font-size: 16px;
+}
+
+#tot_banner_container table.banner {
+    width: 100%;
+}
+
+#tot_banner_container .module_informations {
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 17px;
+    width: 70%;
+    padding: 2px 5px 8px 30px;
+    font-size: 15px;
+    min-width: 358px;
+}
+
+#tot_banner_container .module_informations p {
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+#tot_banner_container .module_informations img {
+    float: left;
+    width: 35px;
+    margin: 15px 15px 15px 0;
+}
+
+#tot_banner_container .links_container {
+    width: 50%;
+    text-align: right;
+    padding-right: 30px;
+    min-width: 150px;
+}
+
+#tot_banner_container .links_container img {
+    width: 20px;
+    cursor: inherit;
+
+}
+
+#tot_banner_container .links_container a {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#tot_banner_container .links_container #logo202 {
+    width: 150px;
+    margin: 5px;
+}
+
+@media (max-width: 1070px) {
+    #tot_banner_container .banner .text,
+    #tot_banner_container .banner .links_container {
+        width: 50%;
+        height: 50px;
+    }
+
+    #tot_banner_container .banner .text {
+        padding: 2px 5px 8px 10px;
+    }
+
+    #tot_banner_container .links_container {
+        margin-left: 70px;
+        text-align: right;
+    }
+
+    #tot_banner_container .links_container #logo202 {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    #tot_banner_container .banner .text,
+    #tot_banner_container .banner .links_container {
+        width: 100%;
+        display: block;
+    }
+
+    #tot_banner_container .links_container {
+        margin-left: 50px;
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+}
+
+/* New input form */
+
+#totNewInputForm .chosen-container-single-nosearch .chosen-search {
+    visibility: hidden;
+}
+
+/* Object display form */
+
+.objectDisplayForm [type='submit'] {
+    margin-top: 15px;
+}
+
+/* See more */
+#seemore .tab_description {
+    text-align: center;
+    margin: 0 auto 5px;
+}
+
+#seemore .tab_description + p {
+    text-align: center;
+    padding: 0 20px 10px 20px;
+}
+
+#seemore fieldset.totmodule {
+    background-color: #fff;
+}
+
+#seemore fieldset.totmodule {
+    border: none;
+    margin-bottom: 35px;
+}
+
+.totmodule_img, .totmodule_text {
+    vertical-align: top;
+    width: 69%;
+    display: inline-block;
+}
+
+.totmodule_text h4 {
+    margin-top: 0px;
+}
+
+.totmodule_img {
+    width: 29%;
+    text-align: center;
+}
+
+.totmodule_button {
+    text-align: center;
+}
+
+.totmodule_button .button {
+    color: #fff;
+    background: 0 0;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    height: 36px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 16px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+    background-color: #78D07D;
+    margin: 20px 0;
+}
+
+.totmodule_button a.button.configure {
+    background-color: #363A41;
+    color: #fff;
+}
+
+.totmodule_button a.button.configure:hover {
+    background-color: #6C868E;
+}
+
+.totmodule_button a.button.discover {
+    background-color: #78D07D;
+    color: #fff;
+}
+
+.totmodule_button a.button.discover:hover {
+    background-color: #70B580;
+}
+
+@media only screen and (max-width: 767px) {
+    .totmodule_text {
+        height: auto !important;
+    }
+}
+
+#accordion > h3, #accordion2 > h3,#accordion3 > h3{
+    margin: 10px 0 10px 0!important;
+}
+
+#accordion > div, #accordion2 > div, #accordion3 > div{
+    height: auto!important;
+}
+
+#accordion .ui-state-active, #accordion2 .ui-state-active, #accordion3 .ui-state-active{
+    color: #ffffff;
+    background: #66CC33!important;
+}
+#accordion3 .ui-state-focus, #accordion .ui-state-focus,#accordion2 .ui-state-focus{
+    display: none;
+}
+.about{
+    text-align: center;
+}
+.about a{
+    margin: 1em;
+}
+.about img{
+    width: 50px;
+    margin: 0 0.5em;
+}
+
+.totcustomfields-configuration-wrapper.loading {
+    min-height: 500px;
+}
+
+.totcustomfields-configuration-wrapper.loading > :not(.loader-wrapper) {
+    display: none;
+}
+
+.totcustomfields-configuration-wrapper.loaded .loader-wrapper {
+    display: none;
+}
+
+.loader-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #7cd5e7;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #7cd5e7 transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

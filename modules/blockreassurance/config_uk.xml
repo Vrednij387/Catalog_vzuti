@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>blockreassurance</name>
+    <displayName><![CDATA[Безпека та гарантії для клієнтів]]></displayName>
+    <version><![CDATA[5.1.2]]></version>
+    <description><![CDATA[Контактуйте зі своїми відвідувачами, щоб запевнити їх щодо безпеки оплати, безкоштовної доставки чи повернення.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Ви впевнені, що хочете видалити цей модуль?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>
